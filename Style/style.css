@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+}
+
+
+.main-section{
+     width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.form-section{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+     padding: 20px;
+}
+
+.main-section h1{
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+
+.main-section h2{
+    /* color: #fff; */
+    font-size: 42px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+
+.main-section p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+.form-section img{
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+
+.form-section h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.form-section form{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #12c2e9;
+}
+
+.login-links{
+    width: 85%;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input{
+    padding: 5px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: none;
+    margin-bottom: 40px;
+}
+
+form button{
+    width: 90%;
+    padding: 5px;
+    height: 35px;
+    border: none;
+    background-color: #3399cc;
+    color: #fff;
+}
+
+.create-btn{
+    width: 90%;
+    padding: 5px;
+    background: none;
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid #3399cc;
+    color: #3399cc;
+}
+
+
+.google-btn{
+    width: 90%;
+    padding: 5px;
+    background: none;
+    height: 35px;
+    margin-top: 20px;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.google-btn img{
+    height: 23px;
+}
+
+
+@media(max-width:768px){
+   .main-section{
+        display: none;
+    }
+
+    .form-section{
+        width: 100%;
+    }
+}
